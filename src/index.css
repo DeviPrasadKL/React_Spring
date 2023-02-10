@@ -1,0 +1,38 @@
+.Home{
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+.AddVehicle, .UpdateVehicle{
+  height: 500px;
+  width: 450px;
+  margin:auto;
+}
+form{
+  height: 300px;
+  width: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+form input{
+  padding: 1rem 1rem;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  padding: 8px 15px;
+  margin-top: 8px;
+  border-radius: 4px;
+  font-weight: 900;
+  border: none;
+}
+.green{
+  background-color: rgb(35, 250, 35);
+}
+.red{
+  background-color: rgb(255, 80, 80);
+}
+.yellow{
+  background-color: yellow;
+}
